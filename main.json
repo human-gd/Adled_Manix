@@ -1,0 +1,16 @@
+{
+    "geode": "5.9.0",
+    "gd": {
+        "android": "2.2081"
+    },
+    "id": "adled.manix",
+    "name": "Adled Manix",
+    "version": "v1.0.0",
+    "developer": "Human",
+    "description": "AI-inspired level layout and decoration generator for Geometry Dash.",
+    "resources": {
+        "files": [
+            "resources/logo.png"
+        ]
+    }
+}
