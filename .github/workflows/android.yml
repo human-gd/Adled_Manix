@@ -20,20 +20,14 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
 
       - name: Build Geode mod
         uses: geode-sdk/build-geode-mod@main
         with:
           target: ${{ matrix.target }}
-          sdk: latest
+          sdk: given
           cli: latest
           build-config: Release
           use-lto: true
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v7
-        with:
-          name: Adled-Manix-${{ matrix.target }}
-          path: |
-            build-*/**/*.geode
+          combine: true
