@@ -10,7 +10,7 @@
     "description": "AI-inspired level layout and decoration generator for Geometry Dash.",
     "resources": {
         "files": [
-            "resources/logo.png"
+            "logo.png"
         ]
     }
 }
